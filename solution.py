@@ -177,7 +177,7 @@ def getBalanceSheetSolution3(data):
 def main():
     jsonFile = open("1-input.json")
     jsonData = json.load(jsonFile)
-    getBalanceSheetSolution3(jsonData)
+    getBalanceSheetSolution1(jsonData)
 
 if __name__ == '__main__':
     main()
